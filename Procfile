@@ -1,3 +1,1 @@
-web: gunicorn blog:app
-
-
+web: python blog.py $PORT
