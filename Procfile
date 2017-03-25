@@ -1,1 +1,3 @@
-web: python blog.py
+web: gunicorn blog:app
+
+
